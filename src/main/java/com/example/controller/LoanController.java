@@ -14,11 +14,6 @@ import java.util.List;
 /**
  * @author taner geyhan
  * Loan Controller Operations
- * Sample Requests
- * CREATE LOAN : POST /api/loans/create?customerId=1&amount=5000&interestRate=0.2&numberOfInstallments=12
- * GET LOANS : GET /api/loans/list?customerId=1
- * GET INSTALLMENTS : GET /api/loans/installments?loanId=1
- * PAY LOAN : POST /api/loans/pay?loanId=1&amount=1000
  */
 @RestController
 @RequestMapping("/api/loans")
